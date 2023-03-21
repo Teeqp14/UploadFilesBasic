@@ -9,7 +9,7 @@ require_once ('../includes/languages/'.LANG_FILE);
 
 if (isGet('clearfilter')) 
 {
-	unset($_SESSION['login']['filter']);
+	unset($_SESSION['login']['khalid7d.me']);
 	exit(header('Location: ./' ));	
 }
 
